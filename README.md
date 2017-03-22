@@ -1,2 +1,6 @@
 # DBMSProject
 A Social Networking site, in which patients are registered with the website to consult each other in a “patients as doctors” fashion
+
+Each patient is identified by a unique patient id, fist name, last name, gender, age, email (which is also unique). 
+On a particular day, each patient might have several symptoms (cough, depression, fatigue, etc), but the patient can insert new symptoms as they appear or delete old ones as they disappear. 
+The database will keep track of when each symptom appear or disappear for each patient. In addition, each patient will be diagnosed with several conditions (stroke, breast cancer, diabetes, etc).  In a similar way, these conditions will appear and disappear as time goes along and the database needs to keep track of when such conditions appear and disappear and for whom. Finally, each patient will receive several treatments (medicine, therapy, etc), the database needs to store the detailed information of the treatment. In addition, a patient can send a message to another patient for help and all the messages communicated among patients need to stored. Each message is identified by a msgid, a subject, the sender, the receiver, the content of the message, a timestamp of the message.   
